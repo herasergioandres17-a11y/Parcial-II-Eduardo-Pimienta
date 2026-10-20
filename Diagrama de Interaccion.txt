@@ -1,0 +1,12 @@
++------------------+         Llamadas / Comandos          +-----------------------+
+|      Usuario     |  --------------------------------->  |   Aplicación Python   |
+| (Menú Consola)   |  <---------------------------------  | (Lógica y Validaciones)|
++------------------+          Resultados / Vistas         +-----------------------+
+                                                                     |
+                                                       Consultas SQL | Conexión SQLite
+                                                       Parametrizadas| (`sqlite3`)
+                                                                     v
+                                                          +-----------------------+
+                                                          |     Base de Datos     |
+                                                          |     `tienda.db`       |
+                                                          +-----------------------+
